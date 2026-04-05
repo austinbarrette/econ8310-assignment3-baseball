@@ -1,0 +1,7 @@
+#Econ 8310 - Assignment 3: Baseball Detection
+#Requirements
+#Install all dependencies with:     pip install -r requirements.txt
+
+torch
+torchvision
+opencv-python
