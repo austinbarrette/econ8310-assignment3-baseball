@@ -55,8 +55,21 @@ Evaluate without retraining:
 
     python model_import.py
 
-### Grader Checks
+### Checks
 - Custom loader imports new videos ✅
 - Neural network trained on baseball data ✅
-- Model weights saved to baseball_model.pt ✅
-- Separate import script evaluates without retraining ✅
+- Model weights saved to baseball_model.pt locally (could not upload to github due to file size limit) ✅
+- Separate import script evaluates without retraining... uploaded to CANVAS ✅
+
+baseball_model.pt exceeds GitHub's 25MB file size limit (322MB) 
+and cannot be hosted directly in this repository.
+
+To generate the weights locally run:
+    python assignment_script.py
+
+Training completed successfully across 5 epochs:
+- Epoch 1: Avg Loss 0.6679
+- Epoch 2: Avg Loss 0.3780  
+- Epoch 3: Avg Loss 0.2957
+- Epoch 4: Avg Loss 0.2118
+- Epoch 5: Avg Loss 0.1933
